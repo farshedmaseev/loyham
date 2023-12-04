@@ -1,0 +1,70 @@
+body{
+	background-image: url(bg.svg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-color: blue;
+}
+
+.glavnidiv{
+  width: 368px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  
+}
+input{
+  background-color: transparent;
+  border-color: white;
+  border-radius: 3px;
+  width: 270px;
+  height: 35px;
+  border: 1px solid white;
+}
+.inputTRE input::placeholder{
+  color: white;
+}
+.inputone {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding-left: 35px;
+  
+}
+.inputone ::placeholder{
+  color: white;
+}
+
+.inputTWO{
+  padding-left: 35px;
+
+}
+
+.inputTRE {
+  margin-top: 40px;
+  background-color: white;
+  border: 0;
+  color: blue;
+  width: 306px;
+}
+h5  {
+  margin-left: 180px;
+  color: white;
+}
+
+input::placeholder{
+  color: white;
+
+}
+#icon1{
+	margin-left: -310px;
+	color: white;
+	font-size: 25px;
+}
+#icon2{
+	margin-left: -310px;
+	font-size: 25px;
+}
+img{
+	margin-left: 85px;
+}
